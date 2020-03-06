@@ -157,7 +157,7 @@ class App extends JFrame implements ActionListener {
 
     public void saveFile() {
         try {
-            FileWriter csvWriter = new FileWriter("Saved/" + keyword + ".csv");
+            FileWriter csvWriter = new FileWriter(keyword + ".csv");
             for (String key : info.keySet()) {
 
                 String title = key;
