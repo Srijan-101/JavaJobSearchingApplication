@@ -41,6 +41,7 @@ class App extends JFrame implements ActionListener {
         setSize(1000, 480);
         SearchBar();
         table();
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
 
